@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    background-color:rgb(250, 215, 232);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: ubuntu;
+}
+
+nav ul{
+    display:flex;
+    align-items:center; 
+    height: 70px;
+    background-color: black;
+    color: whitesmoke;
+    list-style-type: none;
+}
+
+nav ul li{
+    padding: 0px 10px;
+}
+
+.head img{
+    width: 40px;
+    padding: 0px 5px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.container {
+    margin-top: 25px;
+    margin-left: 15%;
+    border: 11px;
+    background-color: black;
+    color: white;
+    width: 70%;
+    height: 580px;
+    padding: 30px;
+    font-family:ubuntu;
+    border-radius: 15px;
+    background-image: url(music.jpg);
+}
+
+.bottom {
+    position: fixed;
+    bottom: 1px;
+    height: 130px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.icon{
+    color: aliceblue;
+    justify-content: center;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.icon i{
+    cursor: pointer;
+    padding: 0px 5px;
+}
+
+#SongBar{
+    width: 180vh;
+    margin: 0px auto;
+}
+
+.SongItem img{
+    height: 40px;
+    border-radius: 20px;
+   /* padding: 0px 10px;*/
+    margin: 0px 23px;
+}
+
+.SongItem{
+   height: 50px;
+   display: flex;
+   background-color: white;
+   justify-content: space-between;
+   border-radius: 23px;
+   width: 80vh;
+   color: black;  
+   margin: 15px 0px ;
+   display: flex;
+   align-items: center;
+   font-size: bold;
+   font-family: ubunto;
+}
+
+h1{
+    margin-bottom: 60px;
+}
+
+.list{
+    padding: 0px 10px;
+    align-items: center;
+   /*margin-top: 5px;*/
+
+}
+
+.timespan {
+    padding: 0px 15px;
+    cursor: pointer;
+}
